@@ -28,7 +28,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${poppins.variable} ${montserrat.variable}`}>
-      <body>{children}</body>
+      <body className="bg-slate-800 text-slate-50 container mx-auto p-4">
+        {children}
+      </body>
     </html>
   );
 }

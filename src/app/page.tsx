@@ -1,7 +1,19 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Home Page</h1>
-    </main>
+    <>
+      <header className="flex justify-between items-center mb-4">
+        <h1 className="text-2xl">Todos</h1>
+        <Link
+          href="/new"
+          className="border border-slate-300 text-slate-300 px-2 py-1 rounded hover:bg-slate-700 focus-within:bg-slate-700 outline-none"
+        >
+          New
+        </Link>
+      </header>
+
+      <ul className="p1-4"></ul>
+    </>
   );
 }
