@@ -1,6 +1,11 @@
 import Link from "next/link";
 import React from "react";
 
+async function createTodo(data: FormData) {
+  "use server";
+
+  console.log("We have made a todo");
+}
 const New = () => {
   return (
     <>
@@ -8,7 +13,7 @@ const New = () => {
         <h1 className="text-2xl">New</h1>
       </header>
 
-      <form className="flex gap-2 flex-col">
+      <form action={createTodo} className="flex gap-2 flex-col">
         <input
           type="text"
           name="title"
