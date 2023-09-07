@@ -11,9 +11,9 @@
     <br />
     <a href="#" target="_blank">View Live</a>
     ·
-    <a href="https://github.com/Lizdev-05/nextevent/issues/new" target="_blank">Report Bug</a>
+    <a href="https://github.com/Lizdev-05/next_todo/issues/new" target="_blank">Report Bug</a>
     ·
-    <a href="https://github.com/Lizdev-05/nextevent/issues/new" target="_blank">Request Feature</a>
+    <a href="https://github.com/Lizdev-05/next_todo/issues/new" target="_blank">Request Feature</a>
   </h5>
 </div>
 
@@ -22,7 +22,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#nextevent">NextEvent</a>
+      <a href="#nexttodo">NextTodo</a>
       <ul>
         <li><a href="#live-link">Live Link</a></li>
         <li><a href="#built-with">Built With</a></li>
@@ -46,19 +46,19 @@
 
 <!-- ABOUT THE PROJECT -->
 
-### NextEvent
+### NextTodo
 
-NextEvent is a website built mainly to practice NextJs routing. With this app, you can view all events, get a specific event and even filter events by the dynamic route...
+NextTodo is a website built mainly to practice NextJs data fectching and server actions. With this app, you can view all Todos, and create new todos.
 
 <div align="center">
-  <img  width="1000" alt="event" src="./cover-page.png">
+  <img  width="1000" alt="Todo" src="./todo1.png">
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Live link
 
-Here is the [live link](https://NextEvent.netlify.app/) of the app
+Here is the [live link](https://NextTodo.netlify.app/) of the app
 
 ### Built With
 
@@ -77,7 +77,7 @@ Here is the [live link](https://NextEvent.netlify.app/) of the app
 
 ### Clone-Locally
 
-- Enter this url: [https://github.com/Lizdev-05/nextevent.git](https://github.com/Lizdev-05/nextevent.git) in your web browser.
+- Enter this url: [https://github.com/Lizdev-05/next_todo.git](https://github.com/Lizdev-05/next_todo.git) in your web browser.
 - Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
 - Select the download Zip option from the drop-down menu.
 - Once the download is complete you will be able to access my project locally.
@@ -119,8 +119,8 @@ In order to run tests for this project make sure you have installed all previous
 
   In the future, I hope to:
 
-  - Add functionalities for admin to delete event
-  - Add functionalities for admin to edit event
+  - Add functionalities for admin to delete Todo
+  - Add functionalities for admin to edit Todo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
