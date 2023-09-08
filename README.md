@@ -51,7 +51,8 @@
 NextTodo is a website built mainly to practice NextJs data fectching and server actions. With this app, you can view all Todos, and create new todos.
 
 <div align="center">
-  <img  width="1000" alt="todo" src="./todo.png">
+
+<img  width="1000" alt="todo" src="./public/images/todo.png" />
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
